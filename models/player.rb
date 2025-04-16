@@ -10,4 +10,20 @@ class Player
   def full_name
     "#{@first_name} #{@last_name}"
   end
+
+  def league
+    @team&.league
+  end
+
+  def sport
+    league&.sport
+  end
+
+  def city
+    @team&.city
+  end
+
+  def stadium
+    @team&.stadium
+  end
 end

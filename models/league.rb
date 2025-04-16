@@ -10,4 +10,9 @@ class League
   def add_team(team)
     @teams << team
   end
+
+  # Returns all players in all teams of this league
+  def players
+    @teams.flat_map { |team| team.players }
+  end
 end

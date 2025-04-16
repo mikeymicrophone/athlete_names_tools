@@ -9,4 +9,9 @@ class Sport
   def add_league(league)
     @leagues << league
   end
+
+  # Returns all players in all leagues and teams for this sport
+  def players
+    @leagues.flat_map { |league| league.players }
+  end
 end

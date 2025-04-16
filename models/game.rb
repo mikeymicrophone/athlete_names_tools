@@ -7,4 +7,9 @@ class Game
     @stadium = stadium
     @date = date
   end
+
+  # Returns all players from both teams in this game
+  def players
+    [@home_team, @away_team].compact.flat_map { |team| team.players }
+  end
 end
