@@ -1,22 +1,130 @@
 [
-  "Atlanta Hawks",
-  "Boston Celtics",
-  "Brooklyn Nets",
-  "Cleveland Cavaliers",
-  "Dallas Mavericks",
-  "Denver Nuggets",
-  "Golden State Warriors",
-  "Indiana Pacers",
-  "Los Angeles Clippers",
-  "Los Angeles Lakers",
-  "Miami Heat",
-  "Milwaukee Bucks",
-  "Minnesota Timberwolves",
-  "New Orleans Pelicans",
-  "New York Knicks",
-  "Oklahoma City Thunder",
-  "Orlando Magic",
-  "Philadelphia 76ers",
-  "Phoenix Suns",
-  "Sacramento Kings"
+  {
+    "model": "Team",
+    "league": "NBA",
+    "teams": [
+      "Hawks",
+      "Celtics",
+      "Nets",
+      "Cavaliers",
+      "Mavericks",
+      "Nuggets",
+      "Warriors",
+      "Pacers",
+      "Clippers",
+      "Lakers",
+      "Heat",
+      "Bucks",
+      "Timberwolves",
+      "Pelicans",
+      "Knicks",
+      "Thunder",
+      "Magic",
+      "76ers",
+      "Suns",
+      "Kings"
+    ]
+  },
+  {
+    "model": "Player",
+    "team": "Hawks",
+    "players": ["Trae Young", "Dejounte Murray", "Bogdan Bogdanovic", "Clint Capela", "De'Andre Hunter", "Onyeka Okongwu", "Saddiq Bey", "Jalen Johnson", "Bruno Fernando", "AJ Griffin", "Wesley Matthews", "Patty Mills"]
+  },
+  {
+    "model": "Player",
+    "team": "Celtics",
+    "players": ["Jayson Tatum", "Jaylen Brown", "Kristaps Porzingis", "Jrue Holiday", "Derrick White", "Al Horford", "Sam Hauser", "Luke Kornet", "Payton Pritchard", "Oshae Brissett", "Svi Mykhailiuk", "Neemias Queta"]
+  },
+  {
+    "model": "Player",
+    "team": "Nets",
+    "players": ["Mikal Bridges", "Cameron Johnson", "Nic Claxton", "Spencer Dinwiddie", "Dorian Finney-Smith", "Dennis Smith Jr.", "Lonnie Walker IV", "Day'Ron Sharpe", "Cam Thomas", "Trendon Watford", "Noah Clowney", "Jalen Wilson"]
+  },
+  {
+    "model": "Player",
+    "team": "Cavaliers",
+    "players": ["Donovan Mitchell", "Darius Garland", "Jarrett Allen", "Evan Mobley", "Caris LeVert", "Max Strus", "Georges Niang", "Isaac Okoro", "Dean Wade", "Damian Jones", "Craig Porter Jr.", "Sam Merrill"]
+  },
+  {
+    "model": "Player",
+    "team": "Mavericks",
+    "players": ["Luka Doncic", "Kyrie Irving", "Derrick Jones Jr.", "Dereck Lively II", "Daniel Gafford", "Josh Green", "Tim Hardaway Jr.", "Maxi Kleber", "Dante Exum", "Jaden Hardy", "Markieff Morris", "A.J. Lawson"]
+  },
+  {
+    "model": "Player",
+    "team": "Nuggets",
+    "players": ["Nikola Jokic", "Jamal Murray", "Aaron Gordon", "Michael Porter Jr.", "Kentavious Caldwell-Pope", "Reggie Jackson", "Christian Braun", "Peyton Watson", "Zeke Nnaji", "Justin Holiday", "DeAndre Jordan", "Julian Strawther"]
+  },
+  {
+    "model": "Player",
+    "team": "Warriors",
+    "players": ["Stephen Curry", "Klay Thompson", "Draymond Green", "Andrew Wiggins", "Kevon Looney", "Jonathan Kuminga", "Gary Payton II", "Moses Moody", "Brandin Podziemski", "Dario Saric", "Trayce Jackson-Davis", "Cory Joseph"]
+  },
+  {
+    "model": "Player",
+    "team": "Pacers",
+    "players": ["Tyrese Haliburton", "Myles Turner", "Pascal Siakam", "Aaron Nesmith", "Andrew Nembhard", "Bennedict Mathurin", "T.J. McConnell", "Obi Toppin", "Jalen Smith", "Isaiah Jackson", "Doug McDermott", "James Johnson"]
+  },
+  {
+    "model": "Player",
+    "team": "Clippers",
+    "players": ["Kawhi Leonard", "Paul George", "James Harden", "Ivica Zubac", "Russell Westbrook", "Norman Powell", "Terance Mann", "Mason Plumlee", "Amir Coffey", "Bones Hyland", "Daniel Theis", "Kobe Brown"]
+  },
+  {
+    "model": "Player",
+    "team": "Lakers",
+    "players": ["LeBron James", "Anthony Davis", "D'Angelo Russell", "Austin Reaves", "Rui Hachimura", "Jarred Vanderbilt", "Gabe Vincent", "Taurean Prince", "Jaxson Hayes", "Max Christie", "Christian Wood", "Cam Reddish"]
+  },
+  {
+    "model": "Player",
+    "team": "Heat",
+    "players": ["Jimmy Butler", "Bam Adebayo", "Tyler Herro", "Terry Rozier", "Duncan Robinson", "Caleb Martin", "Kevin Love", "Jaime Jaquez Jr.", "Thomas Bryant", "Josh Richardson", "Haywood Highsmith", "Nikola Jovic"]
+  },
+  {
+    "model": "Player",
+    "team": "Bucks",
+    "players": ["Giannis Antetokounmpo", "Damian Lillard", "Khris Middleton", "Brook Lopez", "Bobby Portis", "Malik Beasley", "Jae Crowder", "Pat Connaughton", "Cameron Payne", "MarJon Beauchamp", "Thanasis Antetokounmpo", "A.J. Green"]
+  },
+  {
+    "model": "Player",
+    "team": "Timberwolves",
+    "players": ["Anthony Edwards", "Karl-Anthony Towns", "Rudy Gobert", "Mike Conley", "Jaden McDaniels", "Naz Reid", "Nickeil Alexander-Walker", "Kyle Anderson", "Jordan McLaughlin", "Luka Garza", "Josh Minott", "Wendell Moore Jr."]
+  },
+  {
+    "model": "Player",
+    "team": "Pelicans",
+    "players": ["Brandon Ingram", "Zion Williamson", "CJ McCollum", "Jonas Valanciunas", "Herbert Jones", "Trey Murphy III", "Larry Nance Jr.", "Jose Alvarado", "Dyson Daniels", "Naji Marshall", "Jordan Hawkins", "E.J. Liddell"]
+  },
+  {
+    "model": "Player",
+    "team": "Knicks",
+    "players": ["Jalen Brunson", "Julius Randle", "Mitchell Robinson", "RJ Barrett", "Josh Hart", "Donte DiVincenzo", "Isaiah Hartenstein", "Miles McBride", "Precious Achiuwa", "Alec Burks", "Jericho Sims", "Bojan Bogdanovic"]
+  },
+  {
+    "model": "Player",
+    "team": "Thunder",
+    "players": ["Shai Gilgeous-Alexander", "Jalen Williams", "Chet Holmgren", "Josh Giddey", "Lu Dort", "Isaiah Joe", "Jaylin Williams", "Kenrich Williams", "Aaron Wiggins", "Cason Wallace", "Ousmane Dieng", "Lindy Waters III"]
+  },
+  {
+    "model": "Player",
+    "team": "Magic",
+    "players": ["Paolo Banchero", "Franz Wagner", "Wendell Carter Jr.", "Markelle Fultz", "Jalen Suggs", "Cole Anthony", "Jonathan Isaac", "Moritz Wagner", "Gary Harris", "Joe Ingles", "Anthony Black", "Goga Bitadze"]
+  },
+  {
+    "model": "Player",
+    "team": "76ers",
+    "players": ["Joel Embiid", "Tyrese Maxey", "Tobias Harris", "Kelly Oubre Jr.", "Nicolas Batum", "Paul Reed", "Kyle Lowry", "De'Anthony Melton", "Ricky Council IV", "Mo Bamba", "KJ Martin", "Buddy Hield"]
+  },
+  {
+    "model": "Player",
+    "team": "Suns",
+    "players": ["Kevin Durant", "Devin Booker", "Bradley Beal", "Jusuf Nurkic", "Grayson Allen", "Eric Gordon", "Josh Okogie", "Royce O'Neale", "Bol Bol", "Drew Eubanks", "Chimezie Metu", "Damion Lee"]
+  },
+  {
+    "model": "Player",
+    "team": "Kings",
+    "players": ["De'Aaron Fox", "Domantas Sabonis", "Keegan Murray", "Harrison Barnes", "Kevin Huerter", "Malik Monk", "Davion Mitchell", "Sasha Vezenkov", "Trey Lyles", "Alex Len", "JaVale McGee", "Keon Ellis"]
+  }
 ]
+
+
